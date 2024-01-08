@@ -1,0 +1,94 @@
+/* Styles for le menu */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Couleur du fond similaire à celle du papier */
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #eee; /* Arrière-plan du menu */
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #ddd; /* Couleur de fond au survol */
+  }
+  
+  .menu {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff; /* Fond de la zone du menu */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .menuCategory {
+    margin-bottom: 30px;
+  }
+  
+  .menuCategory h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+    font-size: 28px;
+  }
+  
+  .menuCategory ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .menuCategory ul li {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #f9f9f9; /* Couleur du fond des éléments du menu */
+    transition: transform 0.3s ease;
+  }
+  
+  .menuCategory ul li:hover {
+    transform: translateY(-5px);
+  }
+  
+  .menuCategory ul li img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menuCategory ul li p {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+  }
+  
